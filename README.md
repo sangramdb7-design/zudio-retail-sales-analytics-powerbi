@@ -1,12 +1,14 @@
 # Zudio Retail Sales, Store Productivity & Inventory Velocity Analytics
 
 [![Live Case Study](https://img.shields.io/badge/Live%20Case%20Study-View%20Portfolio-0F172A?style=for-the-badge&logo=vercel)](https://portfolio-sangram.vercel.app/project_2)
-[![Tool](https://img.shields.io/badge/Power%20BI-Desktop%20%26%20DAX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#tech-stack--data-model)
-[![Dataset](https://img.shields.io/badge/Dataset-25K%20Transactions%20%7C%2025%20Stores-1E293B?style=for-the-badge)](#dataset-overview)
+[![Full Report PDF](https://img.shields.io/badge/Dashboard%20Report-Pages%201--4%20(PDF)-B91C1C?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](Zudio_Analysis.pdf)
+[![Power BI Workbook](https://img.shields.io/badge/Power%20BI-Zudio_Analysis.pbix-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](Zudio_Analysis.pbix)
 
 An end-to-end **Power BI & DAX** retail analytics project modeled on **Zudio (Trent Ltd.)** 2026 Indian value-fashion operations. Built across **25,000 POS transactions**, **25 real store locations**, **60 private-label SKUs (₹49–₹999)**, and **1,500 store-SKU inventory records** to diagnose store real-estate efficiency, promotional margin erosion, and fast-fashion stock velocity.
 
-👉 **[Explore the Full Interactive Case Study & 2K Dashboard Previews](https://portfolio-sangram.vercel.app/project_2)**
+* 📄 **4-Page Dashboard Export (Pages 1–4):** [`Zudio_Analysis.pdf`](Zudio_Analysis.pdf)
+* 📊 **Interactive Power BI File:** [`Zudio_Analysis.pbix`](Zudio_Analysis.pbix)
+* 🌐 **Interactive Portfolio Case Study:** [https://portfolio-sangram.vercel.app/project_2](https://portfolio-sangram.vercel.app/project_2)
 
 ---
 
@@ -31,49 +33,31 @@ An end-to-end **Power BI & DAX** retail analytics project modeled on **Zudio (Tr
 
 ---
 
-## Dashboard Suite (4 Views)
+## Dashboard Suite (`Zudio_Analysis.pdf` — Pages 1 to 4)
 
-> **Note:** All 4 dashboards are also available in high-resolution PDF format in this repository and zoomable 2K previews on the [live portfolio page](https://portfolio-sangram.vercel.app/project_2).
+Open [`Zudio_Analysis.pdf`](Zudio_Analysis.pdf), download [`Zudio_Analysis.pbix`](Zudio_Analysis.pbix), or visit the [live portfolio case study](https://portfolio-sangram.vercel.app/project_2) to inspect all four views:
 
-### 1. Executive Overview — Sales & Customer Trends
+### Page 1 — Executive View: Sales & Customer Trends
 Tracks monthly revenue and gross profit seasonality, peak shopping windows, payment mode adoption, and category contribution.
-
-![Executive View Dashboard](images/dashboard_executive_view.webp)
-
 * **Festive Peak:** October led the year at **₹18.2 Lakhs** in sales (₹8.46L profit) — more than double the post-EOSS low in February (₹8.7 Lakhs).
 * **Evening Rush:** **55.18% of daily revenue (₹7.23M)** is generated during the **5 PM – 10 PM** window.
 * **UPI-First Checkout:** **65.01% of revenue (₹8.51M)** flows through UPI, compared to 21.47% on Cards and 9.08% on Cash.
 * **Volume vs. Margin:** Womenswear (39.0%) and Menswear (34.4%) drive **73.4%** of revenue, whereas **Beauty & Personal Care** yields the highest gross margin at **52.97%**.
 
----
-
-### 2. Store Performance — Locations & Franchise Profitability
+### Page 2 — Store View: Locations & Franchise Profitability
 Compares store-level sales per sq. ft., regional footprint concentration, and City Tier × Operating Model margins.
-
-![Store View Dashboard](images/dashboard_store_view.webp)
-
 * **Maharashtra Anchor:** Maharashtra accounts for **81.73% of chain revenue (₹10.70M)**, with the 10 Pune outlets contributing **42.39% (₹5.55M)**.
 * **Top Productivity Leader:** **Zudio – R City Mall, Ghatkopar** leads spatial density at **₹55.04/sq. ft.**, with 7 Pune stores ranking in the Top 10.
 * **FOCO Margin Parity:** Franchise stores (**FOCO**) achieve a **46.20% gross margin**, matching company-owned (**COCO**) flagships (**46.13%**) while operating at lower lease costs across Tier-2/3 markets (**46.25%+** margin).
 
----
-
-### 3. Discount Analysis — Protecting Profit Margins
+### Page 3 — Discount View: Protecting Profit Margins
 Monitors campaign-level discount spend, seasonal EOSS spikes, and category markdown exposure.
-
-![Discount View Dashboard](images/dashboard_discount_view.webp)
-
 * **Full-Price Core:** **73.65% of all bills (18,412)** sold at **0% discount**, contributing ₹9.61M at a **48.07%** margin.
 * **EOSS Concentration:** January (₹141.6K) and July (₹152.3K) clearance windows account for **60.81%** of annual discount spend.
 * **The >15% Margin Cliff:** Moderate **10%–15%** bundles lift basket size from **1.28 to 1.67 UPT**, whereas **20%–30%** clearance markdowns fail to sustain basket growth (**1.38–1.42 UPT**) and crash margins to **26%–35%**. These deep discounts made up just **4.83% of bills** yet consumed **32.25% (₹1.56 Lakh)** of total discount spend.
 
----
-
-### 4. Inventory & Stock — Best-Sellers & Stockout Alerts
+### Page 4 — Stock View: Best-Sellers & Stockout Alerts
 Tracks SKU unit velocity, category sell-through rates, inventory holding days, and replenishment status across 1,500 store-SKU combinations.
-
-![Stock View Dashboard](images/dashboard_stock_view.webp)
-
 * **Sub-₹299 Essentials Lead Velocity:** All Top 5 best-sellers are priced ₹199–₹299, led by **Men Graphic Streetwear Tee (1,464 units)**, **Men Solid Cotton Crew-Neck Tee (1,439)**, and **Women Everyday Printed Straight Kurti (1,389)**.
 * **Critical Stockouts:** All **9 zero-unit stockouts** occurred on high-velocity apparel and footwear basics at high-footfall Mumbai and Pune mall stores.
 * **Working Capital Drag:** **75.27% (1,129)** of store-SKU bins held stock for over 130 days (overall avg: **137.28 days**), driven by slower **Beauty (40.0% STR)** and **Footwear (51.9% STR)** turnover vs. **Apparel (64%–65% STR)**.
